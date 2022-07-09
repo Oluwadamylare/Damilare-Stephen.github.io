@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./Asset/myTunes\ bg.jpg);
+    background-position: center;
+    background-size: cover; 
+    color: #FFF;
+}
+nav{
+    background-color: #252529;
+    height: 45px;
+    width: 100%;
+    position: fixed;
+}
+nav ul{
+    margin-left: 10px;
+    height: 100%;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 18px;
+    line-height: 40px;
+    height: 100%;
+}
+nav ul li:hover{
+    background-color: #424244;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 7px 10px;    
+}
+/* a.active, a.hover{
+
+} */
+.content{
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.5;
+}
+h1{
+    font-style: normal;
+    font-size: 70px;
+}
+h3{
+    font-style: normal;
+    font-size: 25px;
+}
+.music{
+    background-image: url(./Asset/grey\ bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.music-text{
+    text-align: center;
+    text-decoration-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#FFF;
+    line-height: 3.0;
+    font-weight: bold;  
+    padding-top: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.music-text h2{
+    font-size: 35px;
+}
+.music-text h5{
+    font-size: 30px;
+}
+.music-text h6{
+    font-size: 15px;
+}
+button{
+    background-color: red;
+    color: #FFF;
+    border: none;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+.music img{
+    height: 75%;
+    width: 75%;
+}
+.video{
+    text-align: center;
+    font-family: sans-serif;
+    font-style: normal;
+}
+.video h3{
+    padding-top: 60px;
+    font-size: 30px;
+}
+.video h5{
+    text-justify: auto;
+    padding-top: 45px;
+    font-size: 20px;
+    text-transform: none;
+    line-height: 30px;
+}
+video p{
+    padding-top: 50px;
+    
+}
+.video button {
+    background-color: rgb(4, 4, 39);
+    color: #FFF;
+    border: none;
+    padding: 20px 8px;
+    margin-top: 20px;
+}
+.video button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+.video img{
+    height: 85%;
+    width: 85%;
+    padding-top: 8px;
+    position: static;
+}
+.bottom{
+    background-image: url(./Asset/coupon.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #FFF;
+    padding-bottom: 3rem;
+}
+.bottom h4{
+    padding-top: 60px;
+    font-size: 30px;
+}
+.bottom p{
+    text-justify: auto;
+    padding-top: 45px;
+    font-size: 20px;
+    text-transform: none;
+    line-height: 30px;
+}
+.giftcard img{
+    height: 50%;
+    width: 50%;
+}
+.giftcard-text{
+    width: 500px;
+}
+.main{
+     width: 1130px;
+     max-width: 95%;
+     margin: 0% auto ;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+}
+.giftcard h5{
+    text-transform: capitalize;
+    font-size: 20px;
+    padding-bottom: 4px 0 0 10px;
+    font-family: sans-serif;
+}
+.giftcard p{
+    font-family: sans-serif;
+    /* margin: 20px 0 0 20px; */
+}
+.giftcard hr{
+    margin: 20px 20px 20px 20px;
+}
+footer{
+    background-color: #252529;
+    padding: 50px 50px 50px 50px;
+    font-family: sans-serif;
+    color: #FFF;
+}
+.container{
+    max-width: 1170px;
+    background-color: red;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+}
+.row > div{
+    width: 20%;
+}
+.footer-cols{
+    width: 25px;
+    padding: 0 15px;
+    /* margin: 20px 0 0 20px; */
+}
+footer h3{
+    font-size: 20px;
+    border-bottom: #444 solid 1px;
+    padding-bottom: 0.7rem;
+}
+footer hr{
+    margin-top: 10px;
+    font-size: .3px;
+}
+footer a{
+    text-decoration: none;
+    color: #FFF;
+    padding-top: 50px;
+}
+footer a:hover{
+    color: red;
+
+}
+footer ul{
+    list-style-type: none;
+    line-height: 10px;
+    padding-top: 20px;
+}
+footer ul li{
+    padding-top: 15px;
+    font-size: 15px;
+}
+.copyright{
+    background-color: gray;
+}
+.footer-bottom{
+    background-color: #333;
+    padding-bottom: 15px;
+    color: #FFF;
+}
+.footer-bottom p{
+    align-content: center;
+    font-family: sans-serif ;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+
+
+
